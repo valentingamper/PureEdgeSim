@@ -292,8 +292,8 @@
 						<exclude>**/examples/Example1.java</exclude>
 						<exclude>**/examples/Example5.java</exclude>
 					</excludes>
-					<source>1.8</source>
-					<target>1.8</target>
+					<source>9</source>
+					<target>9</target>
 				</configuration>
 			</plugin>
 

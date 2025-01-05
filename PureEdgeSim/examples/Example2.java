@@ -18,7 +18,6 @@
  *     
  *     @author Charafeddine Mechalikh
  **/
-package examples;
 
 import com.mechalikh.pureedgesim.simulationmanager.Simulation;
 
@@ -39,7 +38,7 @@ public class Example2 {
 		 * can be found in the examples folder as well. by removing this line,
 		 * pureEdgeSim will use the default mobility model.
 		 */
-		sim.setCustomMobilityModel(Example2CustomMobilityModel.class);
+		//sim.setCustomMobilityModel(examples.Example2CustomMobilityModel.class);
 
 		// To use the PureEdgeSim default Mobility Manager you can also uncomment this:
 		// setCustomMobilityModel(MobilityManager.class);

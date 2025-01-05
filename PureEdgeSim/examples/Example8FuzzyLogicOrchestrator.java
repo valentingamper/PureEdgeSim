@@ -18,7 +18,6 @@
  *     
  *     @author Charafeddine Mechalikh
  **/
-package examples;
 
 import com.mechalikh.pureedgesim.scenariomanager.SimulationParameters;
 import com.mechalikh.pureedgesim.simulationmanager.SimulationManager;

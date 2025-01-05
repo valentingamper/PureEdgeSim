@@ -18,7 +18,7 @@
  *     
  *     @author Charafeddine Mechalikh
  **/
-package examples; 
+
 import com.mechalikh.pureedgesim.datacentersmanager.DefaultTopologyCreator;
 import com.mechalikh.pureedgesim.network.DefaultNetworkModel;
 import com.mechalikh.pureedgesim.simulationmanager.DefaultSimulationManager;
@@ -41,13 +41,13 @@ public class Example1 {
 		Simulation sim = new Simulation();
 
 		// To change the mobility model
-		sim.setCustomMobilityModel(Example2CustomMobilityModel.class);
+		sim.setCustomMobilityModel(examples.Example2CustomMobilityModel.class);
 
 		// To change the tasks orchestrator
 		sim.setCustomEdgeOrchestrator(DefaultOrchestrator.class);
 		
 		// To change the computing node class
-		sim.setCustomComputingNode(Example4CustomComputingNode.class);
+		sim.setCustomComputingNode(examples.Example4CustomComputingNode.class);
 		
 		// To change the tasks generator
 		sim.setCustomTaskGenerator(DefaultTaskGenerator.class); 

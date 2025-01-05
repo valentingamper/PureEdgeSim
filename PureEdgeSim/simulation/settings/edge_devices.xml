@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<edge_devices>
+	<device arch="arm" os="linux" vmm="none">
+		<!-- This is a Raspberry Pi 5 -->
+		<connectivity>wifi</connectivity>
+		<mobility>false</mobility>
+		<speed>1500</speed>
+		<minPauseDuration>0</minPauseDuration>
+		<maxPauseDuration>0</maxPauseDuration>
+		<minMobilityDuration>0</minMobilityDuration>
+		<maxMobilityDuration>0</maxMobilityDuration>
+		<battery>false</battery>
+		<percentage>50</percentage>
+		<batteryCapacity>0</batteryCapacity>
+		<initialBatteryLevel>0</initialBatteryLevel>
+		<idleConsumption>4.0</idleConsumption>
+		<maxConsumption>8.0</maxConsumption>
+		<isOrchestrator>false</isOrchestrator>
+		<generateTasks>true</generateTasks>
+		<cores>6</cores>
+		<mips>25000</mips>
+		<ram>16000</ram>
+		<storage>64000</storage>
+	</device>
+	<device arch="arm" os="linux" vmm="none">
+		<!-- This is a Raspberry Pi 4 Model B -->
+		<connectivity>wifi</connectivity>
+		<mobility>false</mobility>
+		<speed>1000</speed>
+		<minPauseDuration>0</minPauseDuration>
+		<maxPauseDuration>0</maxPauseDuration>
+		<minMobilityDuration>0</minMobilityDuration>
+		<maxMobilityDuration>0</maxMobilityDuration>
+		<battery>false</battery>
+		<percentage>50</percentage>
+		<batteryCapacity>0</batteryCapacity>
+		<initialBatteryLevel>0</initialBatteryLevel>
+		<idleConsumption>3.5</idleConsumption>
+		<maxConsumption>7.0</maxConsumption>
+		<isOrchestrator>false</isOrchestrator>
+		<generateTasks>true</generateTasks>
+		<cores>4</cores>
+		<mips>20000</mips>
+		<ram>8000</ram>
+		<storage>32000</storage>
+	</device>
+</edge_devices>

@@ -18,7 +18,6 @@
  *     
  *     @author Charafeddine Mechalikh
  **/
-package examples;
 
 import com.mechalikh.pureedgesim.network.TransferProgress;
 import com.mechalikh.pureedgesim.network.DefaultNetworkModel;
